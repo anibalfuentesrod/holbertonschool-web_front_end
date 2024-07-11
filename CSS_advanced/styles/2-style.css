@@ -1,4 +1,6 @@
-/* some colors to it */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: #161616;
