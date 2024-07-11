@@ -1,4 +1,4 @@
-/* adding universal box */
+/* new pseudo-class */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
@@ -25,6 +25,12 @@
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 /* universall box sizing rulee */
@@ -72,8 +78,13 @@ a:active {
     color: var(--color-primary);
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-padding);
 }
 
 .section-title {
@@ -89,6 +100,25 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-align);
+    text-align: var(--section-footer-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
