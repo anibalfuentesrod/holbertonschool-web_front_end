@@ -45,10 +45,10 @@
     --section-tagline-margin: 0;
 }
 
-/* universal box sizing rulee */
+/* universal box sizing rule */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -112,6 +112,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 .section-body {
