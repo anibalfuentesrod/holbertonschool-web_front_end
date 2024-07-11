@@ -1,4 +1,4 @@
-/* fix isssues for drk theme  */
+/* ading bck round and hover state to services  */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
@@ -221,7 +221,7 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-services .cart-title {
+.card-services .card-title {
     margin: 0;
 }
 
