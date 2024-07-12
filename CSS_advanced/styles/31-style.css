@@ -1,4 +1,4 @@
-/* styling the work seccion */
+/* adding quotes deco.. on testimonials */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 :root {
@@ -374,6 +374,20 @@ ul.row {
 
 .card-work:hover .card-title {
     opacity: 1;
+}
+
+.card-testimonial .card-quote {
+    position: relative;
+}
+
+.card-testimonial .card-quote::before {
+    content: "\201C";
+    position: absolute;
+    top: -4.5rem;
+    left: -1rem;
+    color:#efeded;
+    font-size: 10rem;
+    z-index: -1;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
